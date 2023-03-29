@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="style.css">
+  <head>
+    <title>World Cup Draw</title>
+  </head>
+  <body>
+    <h1>World Cup Draw</h1>
+    <h2>Teams</h2>
+    <ul id="teams-list"></ul>
+    <button onclick="displayTeams()">Display Teams</button>
+    <h2>Groups</h2>
+    <div id="groups-list"></div>
+    <button onclick="makeGroups()">Make Groups</button>
+    <h2>Points</h2>
+    <label for="team-input">Team:</label>
+    <input type="text" id="team-input" />
+    <br />
+    <label for="points-input">Points:</label>
+    <input type="text" id="points-input" />
+    <button onclick="makePieChart()">Make Pie Chart</button>
+    <canvas id="pie-chart"></canvas>
+    <script src="chart.js"></script>
+  </body>
+</html>
